@@ -32,4 +32,8 @@
 >> - 80 HTTP
 >> - 443 HTTPS
     
-    
+### DNS
+> - Short for Domain Name System, it describes the entities and protocols involved in the
+translation from domain names to IP Addresses. Typically, machines make a DNS query to
+a well known entity which is responsible for returning the IP address (or multiple ones)
+of the requested domain name in the response.

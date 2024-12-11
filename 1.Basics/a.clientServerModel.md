@@ -37,3 +37,37 @@
 translation from domain names to IP Addresses. Typically, machines make a DNS query to
 a well known entity which is responsible for returning the IP address (or multiple ones)
 of the requested domain name in the response.
+
+### IP
+> - Stands for Internet Protocal. This network protocol outlines how almost
+  all machine-to-machine communications should happen in the world. Other
+  protocols like TCP, UDP, HTTP are built on top of IP
+
+### TCP
+> - Network protocol built on top of the Internet Protocol (IP). Allows for
+  ordered, reliable data delivery between machines over the public internet by
+  creating a connection
+>- TCP is usually implemented in the kernel, which exposes sockets to
+  applications that they can use to stream data through an open connection.
+
+### HTTP
+> - The HTTP protocol is a very common network protocol implemented on top
+  of TCP. Clients make HTTP requests, and servers respond with a response.
+> - Requests typically have the following schema:
+>> - host: string (example: algoexpert.io)
+>> - port: integer (example: 80 or 443)
+>> - method: string (example: GET, PUT, POST, DELETE, OPTIONS or PATCH)
+>> - headers:  pair list (example: "Content-Type" => "application/json")
+>> - body: opaque sequence of bytes
+> - Responses typically have the following schema:
+>> - status code: integer (example: 200, 401)
+>> - headers:  pair list (example: "Content-Length" => 1238)
+>> - body: opaque sequence of bytes
+
+### IP Packet
+> - Sometimes more broadly referred to as just a (network) packet , an IP
+  packet is effectively the smallest unit used to describe data being sent over IP , aside from bytes. An IP packet consists of:
+>> - an IP header which contains the source and destination, IP addresses as well as other information related to the network
+>> - a payload , which is just the data being sent over the network
+    
+  

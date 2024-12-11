@@ -21,3 +21,10 @@
 
 ### Redundancy
 > - The process of replicating the part of system in an effort to make it more reliable
+
+### SLA
+> - Service level agreement, SLA's are basically the collection of gurantees given to customer by service providers
+> - SLA's typically makes guarantees on systems availability amongst other things. SLA's are made of muultiple SLO's
+
+### SLO's
+> - service level objective, is a guarantee given to a customer by service provider. SLO's typically guarantees on systems availability, amongst the other things. SLO's constitutes an SLA's
